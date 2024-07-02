@@ -1,0 +1,148 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family: 'Computador';
+    src: url(  ) format('opentype');
+    font-weight: normal;
+}
+
+
+
+
+:root {
+    --cor0: #f4f5f4;
+    --cor1: #838383;
+    --cor2: #070707;
+    --cor3: #c42828;
+    --cor4:  #c43838;
+    --cor5: #fffafa;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque:  "Bebas Neue", sans-serif; 
+ }
+
+*{
+    margin: 10px;
+    padding: 0px;
+}
+
+main p{
+  margin: 15px 0px;
+  text-align: justify;
+  text-indent: 30px;
+  font-size: 1em;
+  line-height: 2em;
+
+}
+
+body{
+    
+    background-color: rgb(80, 202, 50);
+    font-family: var(--fonte-padrao);
+}
+
+header {
+    background-image: linear-gradient(to bottom, var rgb(173, 157, 157) ), var(--cor4);
+    background-color: var(rgb(240, 6, 6));
+    border-radius: 10px;
+  min-height: 150px;
+  text-align: center;
+  padding-top: 40px;
+}
+
+header > h1 {
+ color: var(--cor2);
+font-family: var(--fonte-destaque);
+margin-top: 30px;
+margin-bottom: 20px;
+font-size: 3em;
+text-shadow: 2px 2px 0px rgb(0, 0, 0, 0.267);
+}
+
+header > p {
+    font-family: Arial, Helvetica, sans-serif
+    color white;
+    font-size: 1.2em;
+    max-width: 500;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 0px rgb(0, 0, 0, 0.267);
+
+}
+
+nav h1 {
+    color: rgb(56, 192, 56);
+    padding: 10px;
+    box-shadow: 0px 7px 7px rgb(0, 0, 0, 0.192);
+
+}
+
+nav > a {
+
+color: white;
+padding: 10px;
+text-decoration: none;
+font-weight: bold;
+transition-duration: 1s;
+}
+nav > a:hover {
+    background-color: #070707;
+    border-radius: 10px;
+
+
+}
+
+main {
+    
+ background-color: white;
+border-radius: 10px;
+}
+
+main h1 {
+
+    color: var(--cor5);
+    font-family:Arial, Helvetica, sans-serif ;
+}
+main h2 {
+   font-family: 'Courier New', Courier, monospace;
+
+}
+
+main a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    background-color: blanchedalmond;
+    padding: 2px 6px;
+    border-radius: 5px;
+}
+
+main a:hover{
+    text-decoration: underline;
+    color: #070707;
+}
+
+aside {
+    background-color: rgb(90, 223, 101);
+    columns: 2;
+    
+}
+
+
+footer {
+   background-color: #f4f5f4;
+   color: #070707;
+ text-align: center;
+ font-size: 0.em;
+ padding: 5px;
+}
+footer  a {
+   color: white;
+   font-weight: bolder;
+   text-decoration: none;
+
+}
+footer  a :hover {
+    text-decoration: underline; 
+
+}
